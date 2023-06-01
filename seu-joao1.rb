@@ -42,7 +42,7 @@ if preco > 0
 valorfinal = valortotal + preco * (desconto/100)
 
 puts "-------------------------------------------------"
-puts "|Total discount amount                | #{descontado*10} % |"
+puts "|Total discount amount                | #{descontado} % |"
 puts "-------------------------------------------------"
 puts "|Total amount payable (with discount) | #{valorfinal} |" 
 puts "================================================="
