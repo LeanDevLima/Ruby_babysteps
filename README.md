@@ -28,3 +28,5 @@ This project provides a software solution for Mr. João, a merchant, who needs a
 Ruby environment to run the program.
 
 Example:
+![Example](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/exemple.jpg)
+
