@@ -1,4 +1,4 @@
-# Mr. João is a merchant and he needs a software that calculates the discount percentage he will 
+# Mr. John is a merchant and he needs a software that calculates the discount percentage he will 
 # give to his customers on the total purchase amount. Create a software that asks for the total 
 # order value, asks for the percentage, and then displays the discounted value and the amount discounted.
 # If the discounted total value is less than 10, offer an additional item in the order worth 15.

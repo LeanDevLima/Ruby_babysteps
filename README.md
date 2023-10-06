@@ -4,11 +4,14 @@ The purpose of this repository is to publish some Ruby exercises.
 
 
 ![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/rybylogo.jpg)
-___
-## seu-joao1.rb 🤖
+
+
+<details>
+<summary> mr-John1.rb 🤖 🌟</summary>
+<br>
 
 ### Discount Calculator: 📈
-This project provides a software solution for Mr. João, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software asks for the total order value, the discount percentage, and then displays the discounted value and the amount discounted. Additionally, if the discounted total value is less than 10, the software offers an additional item in the order worth 15.
+This project provides a software solution for Mr. John, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software asks for the total order value, the discount percentage, and then displays the discounted value and the amount discounted. Additionally, if the discounted total value is less than 10, the software offers an additional item in the order worth 15.
 
 ### How to Use: ⚙️
 1 - Run the program in a Ruby environment.
@@ -33,18 +36,24 @@ This project provides a software solution for Mr. João, a merchant, who needs a
 
 Ruby environment to run the program.
 
-Run the program using de command "ruby seu-joao1.rb"
+Run the program using de command "ruby mr-John1.rb"
 
 Example:
 ![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/exemple1.jpg)
 
 
 ___________________________
-## seu-joao2.rb 🤖
+
+</details>
+
+<details>
+<summary> mr-John2.rb 🤖 🌟</summary>
+<br>
+
 
 ### Discount Calculator with Item Addition 📈
 
-This project provides a software solution for Mr. João, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software initially asks for the total order value and applies the discount percentage provided by the user. It then displays the discounted value and the amount discounted. If the discounted total value is less than 10, the software offers the option to add an extra item to the order.
+This project provides a software solution for Mr. John, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software initially asks for the total order value and applies the discount percentage provided by the user. It then displays the discounted value and the amount discounted. If the discounted total value is less than 10, the software offers the option to add an extra item to the order.
 
 ### How to Use ⚙️
 1 - Run the program in a Ruby environment.
@@ -70,8 +79,36 @@ This project provides a software solution for Mr. João, a merchant, who needs a
 ### Requirements 👷🏽‍♀️🔩
 Ruby environment to run the program.
 
-Run the program using de command "ruby seu-joao2.rb"
+Run the program using de command "ruby mr-John2.rb"
 
 Example:
 ![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/exemple2.jpg)
 
+</details>
+
+<details>
+<summary>  🤖 🌟</summary>
+<br>
+
+
+:
+
+Crie um programa que calcule a média de três números inteiros.
+
+Implemente um conversor de moeda que converta dólares em euros (usando variáveis de ponto flutuante).
+
+Crie um programa que solicite o nome do usuário e o cumprimente com uma mensagem personalizada (usando variáveis de string).
+
+Implemente um programa que verifique se um número é par ou ímpar e exiba a mensagem apropriada (usando variáveis booleanas).
+
+Crie um programa que armazene uma lista de nomes em um array e permita ao usuário adicionar ou remover nomes da lista.
+
+Implemente um dicionário simples usando variáveis de hash, permitindo que o usuário pesquise palavras e obtenha suas definições.
+
+Desenvolva um programa que simule uma calculadora com operações de adição, subtração, multiplicação e divisão.
+
+Crie um programa que armazene informações de alunos (nome, idade, média) em uma classe e permita ao usuário adicionar novos alunos e exibir os detalhes existentes.
+
+Implemente um jogo de adivinhação, onde o programa gera um número aleatório e o usuário tenta adivinhar o número.
+
+Desenvolva um programa que converta uma temperatura de graus Celsius para Fahrenheit (usando variáveis de ponto flutuante).
