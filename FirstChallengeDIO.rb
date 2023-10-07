@@ -44,7 +44,7 @@ loop do
   when 3
     show_users(users)
 
-    print "Enter the index of the user you want to update: "
+    print "Enter the index of the user you want to update (the first is 0): "
     index = gets.to_i
 
     if index >= 0 && index < users.length
