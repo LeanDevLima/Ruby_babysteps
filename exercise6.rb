@@ -65,4 +65,3 @@
       puts 'Invalid option. Please choose a valid option (1 to 5).'
     end
   end
-
