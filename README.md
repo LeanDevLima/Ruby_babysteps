@@ -1,114 +1,41 @@
+# 🔻💎🔻 Ruby Basics Exercises 🔻💎🔻
 
-# 🔻💎🔻 Ruby_babysteps 🔻💎🔻
-The purpose of this repository is to publish some Ruby exercises.
+## About
+Welcome to the Ruby Basics Exercises repository! This repository is designed to help you learn and practice the fundamentals of the Ruby programming language. Whether you're a beginner or looking to refresh your Ruby skills, you'll find a variety of exercises to work on.
 
+## Features
+📚 **Exercise Categories**: We've organized exercises into different categories, such as variables, control flow, arrays, and more.
 
-![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/rybylogo.jpg)
+📝 **Step-by-Step Solutions**: Each exercise comes with a detailed step-by-step solution to help you understand the problem-solving process.
 
+🚀 **Gradual Complexity**: Exercises range from easy to more challenging, so you can progress at your own pace.
 
-<details>
-<summary> mr-John1.rb 🤖 🌟</summary>
-<br>
+🔧 **Contributions**: Feel free to contribute your own exercises, improvements, or bug fixes to help others learn Ruby.
 
-### Discount Calculator: 📈
-This project provides a software solution for Mr. John, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software asks for the total order value, the discount percentage, and then displays the discounted value and the amount discounted. Additionally, if the discounted total value is less than 10, the software offers an additional item in the order worth 15.
+## Getting Started
+1. **Clone the Repository**: Start by cloning this repository to your local machine.
 
-### How to Use: ⚙️
-1 - Run the program in a Ruby environment.
-
-2 - Enter the name of the product that the customer took when prompted.
-
-3 - Provide the total order value.
-
-4 - Enter the discount percentage.
-
-5 - The software will calculate the discounted value and the amount discounted.
-
-6 - If the discounted total value is less than 10, the software will ask if you want to add any items (respond with 'Y' or 'N').
-
-7 - If you choose 'Y', an additional item worth 15 will be added to the order.
-
-8 - The software will display the product's name, price, and any additional item added.
-
-9 - Finally, it will show the total discount amount, the total amount payable with the discount, and the final value of the order.
-
-### Requirements 👷🏽‍♀️🔩
-
-Ruby environment to run the program.
-
-Run the program using de command "ruby mr-John1.rb"
-
-Example:
-![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/exemple1.jpg)
+git clone https://github.com/LeanDevLima/Ruby_babysteps.git
 
 
-___________________________
+2. **Choose an Exercise**: Browse the exercises in the relevant category folder, and select one to work on.
 
-</details>
+3. **Work on the Exercise**: Open the exercise file and start writing your Ruby code to solve the problem.
 
-<details>
-<summary> mr-John2.rb 🤖 🌟</summary>
-<br>
+4. **Check Your Solution**: Compare your solution to the step-by-step solution provided.
 
+5. **Contribute**: If you come up with an interesting exercise or want to improve existing ones, submit a pull request!
 
-### Discount Calculator with Item Addition 📈
+## Exercise Categories
+- 💡 **Variables and Data Types**
+- 🔄 **Control Flow and Conditionals**
+- 🧩 **Arrays and Data Structures**
+- 📦 **Functions and Methods**
+- 🚀 **Advanced Topics** (for those looking for a challenge)
 
-This project provides a software solution for Mr. John, a merchant, who needs a tool to calculate the discount percentage he will offer to his customers based on the total purchase amount. The software initially asks for the total order value and applies the discount percentage provided by the user. It then displays the discounted value and the amount discounted. If the discounted total value is less than 10, the software offers the option to add an extra item to the order.
-
-### How to Use ⚙️
-1 - Run the program in a Ruby environment.
-
-2 - Follow the instructions on the screen.
-
-3 - Enter the name of the product and its value when prompted. Continue adding items by repeating this step.
-
-4 - When you finish adding items, enter '0' to proceed.
-
-5 - The software will calculate the discounted value and the amount discounted based on the entered items and the provided discount percentage.
-
-6 - If the discounted total value is less than 10, the software will ask if you want to add an extra item (respond with 'Y' or 'N').
-
-7 - If you choose 'Y', you will be prompted to enter the name and value of the extra item.
-
-8 - The software will display the list of items in the order with their respective prices.
-
-9 - It will also show the sum of the prices of all items before the discount was applied.
-
-10 - Finally, it will display the discounted value of the order, including the extra item if added.
-
-### Requirements 👷🏽‍♀️🔩
-Ruby environment to run the program.
-
-Run the program using de command "ruby mr-John2.rb"
-
-Example:
-![](https://github.com/LeanDevLima/Ruby_babysteps/blob/main/exemple2.jpg)
-
-</details>
-
-<details>
-<summary>  🤖 🌟</summary>
-<br>
+## Resources
+- [Ruby Documentation](https://www.ruby-lang.org/en/documentation/): Official Ruby documentation for reference.
+- [Ruby Style Guide](https://rubystyle.guide/): Keep your code clean and consistent.
 
 
-:
-
-Crie um programa que calcule a média de três números inteiros.
-
-Implemente um conversor de moeda que converta dólares em euros (usando variáveis de ponto flutuante).
-
-Crie um programa que solicite o nome do usuário e o cumprimente com uma mensagem personalizada (usando variáveis de string).
-
-Implemente um programa que verifique se um número é par ou ímpar e exiba a mensagem apropriada (usando variáveis booleanas).
-
-Crie um programa que armazene uma lista de nomes em um array e permita ao usuário adicionar ou remover nomes da lista.
-
-Implemente um dicionário simples usando variáveis de hash, permitindo que o usuário pesquise palavras e obtenha suas definições.
-
-Desenvolva um programa que simule uma calculadora com operações de adição, subtração, multiplicação e divisão.
-
-Crie um programa que armazene informações de alunos (nome, idade, média) em uma classe e permita ao usuário adicionar novos alunos e exibir os detalhes existentes.
-
-Implemente um jogo de adivinhação, onde o programa gera um número aleatório e o usuário tenta adivinhar o número.
-
-Desenvolva um programa que converta uma temperatura de graus Celsius para Fahrenheit (usando variáveis de ponto flutuante).
+Happy coding! 💻🎉
