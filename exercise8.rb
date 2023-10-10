@@ -1,21 +1,45 @@
-# Implement a guessing game, where the program generates a random number and the user tries to guess the number.
+# Develop a program that converts a temperature from Celsius to Fahrenheit (using floating point variables).
 
-min_value = 1
-max_value = 5
-random_number = rand(max_value - min_value + 1) + min_value
+puts("=============================")
+puts("==-►Temperature Converter◄-==")
+puts("=============================")
 
-puts "Try to guess which number is from #{min_value} to #{max_value}"
-puts "========================================="
-puts "Choose a number: "
+loop do
+  puts("What would you like to do?")
+  puts 'Menu'
+  puts '1 - Celsius to Fahrenheit'
+  puts '2 - Fahrenheit do Celsius'
+  puts '0 - Exit'
 
-number = gets.to_i
+  print 'Choose an option: '
+  choice = gets.to_i
 
-if number == random_number
-    puts "You got it right, CONGRATULATIONS!!!"
-    puts "Your number #{number}"
-    puts "Randon Number #{random_number}"
-else
-    puts "This is not the right number, try again."
-    puts "Your number #{number}"
-    puts "Randon Number #{random_number}"
+  a = 9.0/5.0
+  b = 5.0/9.0
+
+  case choice
+  when 1
+    puts 'What is the temperature in Celsius?: '
+    celsius = gets.to_i
+
+    result = (celsius * a) + 32
+
+    puts "►►The result is #{result}º Fahrenheit"
+
+  when 2
+    puts 'What is the temperature in Fahrenheit? '
+
+    fahrenheit = gets.to_i
+
+    result = (fahrenheit - 32) * b
+
+    puts "►►The result is #{result}º Celsius"
+
+  when 0
+    puts 'Leaving the console project.'
+    break
+
+  else
+    puts 'Invalid option. Please choose a valid option (0 to 2).'
+  end
 end
