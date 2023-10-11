@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.1.0)
+      activesupport (= 7.1.0)
+    activesupport (7.1.0)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    base64 (0.1.1)
+    bigdecimal (3.0.0)
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.1)
+    cpf_cnpj (0.5.0)
+    cpf_validator (0.2.1)
+      activemodel (>= 3.0)
+    drb (2.0.4)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.2)
+    mutex_m (0.1.1)
+    os (1.1.4)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  cpf_cnpj
+  cpf_validator (~> 0.2.1)
+  os
+
+BUNDLED WITH
+   2.4.20
