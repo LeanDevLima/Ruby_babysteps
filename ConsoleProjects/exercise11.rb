@@ -42,5 +42,4 @@ def mostrar_relacionamentos
   end
 end
 
-# Chamando a função para executar o algoritmo
 mostrar_relacionamentos
