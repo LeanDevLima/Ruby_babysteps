@@ -37,5 +37,7 @@ git clone https://github.com/LeanDevLima/Ruby_babysteps.git
 - [Ruby Documentation](https://www.ruby-lang.org/en/documentation/): Official Ruby documentation for reference.
 - [Ruby Style Guide](https://rubystyle.guide/): Keep your code clean and consistent.
 
+## Certificates
+You can check all the certificates I received for completing the activities in this repository at https://github.com/LeanDevLima/Ruby_babysteps/tree/main/Certificates .
 
 Happy coding! 💻🎉
